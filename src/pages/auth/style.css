@@ -1,0 +1,45 @@
+.MuiButton-containedPrimary{
+    /* color: white !important; */
+    background-color: #F3903F !important;
+}
+.MuiButton-textSecondary {
+    color: #F3903F !important;
+}
+
+.MuiButton-textPrimary{
+    background-color: #FAEBE0 !important;
+    color: #F3903F !important;
+}
+
+.btnSwitchPages{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50rem;
+    background-color: #F3903F;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+}
+.btnSwitchPages:hover , .btnActivePages:hover{
+    background-color: #ffa45a;
+}
+
+.btnActivePages{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50rem;
+    background-color: #ffb579;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+}
+.enpAEi{
+    background-color: white !important;
+}
+.MuiPaper-elevation1{
+    box-shadow : none !important
+}

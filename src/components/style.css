@@ -1,0 +1,10 @@
+.MuiDivider-light   {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+.lkimRl {
+    background-color: black !important;
+}
+
+.MuiPaper-root.MuiMenu-paper.MuiPaper-elevation8.MuiPopover-paper.MuiPaper-rounded {
+    top: 50px !important;
+}

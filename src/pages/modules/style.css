@@ -1,0 +1,130 @@
+.listCard{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px
+}
+
+.cardAlbum{
+    width: 168px;
+    height:100px;
+    margin-right: 20px;
+    border-radius: 2%;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+}
+.cardProduct {
+    width: 168px;
+    height: 220px;
+    margin-right: 20px;
+    border-radius: 2%;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+}
+.cardProduct:hover , .cardAlbum:hover{
+    background-color: #282828;
+}
+
+
+.cardProductImgBtn{
+    padding: 15px;
+    position: relative;
+}
+
+.cardAlbumImgBtn{
+    padding: 15px;
+    position: relative;
+}
+
+
+.cardProductImgBtn:hover .cardProductBtn {
+    display:initial;
+}
+.cardAlbumImg {
+    width: 137px;
+    height: 70px;
+}
+
+.cardProductImg {
+    width: 137px;
+    height: 137px;
+   
+}
+
+.cardAlbumBtn{
+    width : 138px ;
+    display:initial;
+    opacity: 1;
+    position: absolute;
+    color:white;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.cardProductBtn{
+    width : 138px ;
+    display:none;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.cardProductBtnPlay{
+    margin-left: auto;
+    margin-right: 15px;
+    align-items: center;
+    width : 40px;
+    height: 40px;
+    border-radius: 50%;
+    border : 0px !important;
+    background-color: #F3903F;
+}
+
+.cardProductImgPlay{
+    margin-left: auto;
+    margin-right: auto;
+    width : 15px;
+    height: 15px;
+}
+
+.cardProductBtnLike  {
+    margin-left: 10px;
+    margin-right: 15px;
+    width: 24px !important;
+}
+
+.cardProductBtnMore{
+    margin-left: auto;
+    margin-right: auto;
+    width: 24px !important;
+
+}
+
+.cardProductTitle{
+    width: auto;
+    height: auto;
+    word-wrap: break-word;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    color: white;
+}
+
+.titleList{ 
+    margin-bottom: 20px;
+}
+
+.cardContainer{ 
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}

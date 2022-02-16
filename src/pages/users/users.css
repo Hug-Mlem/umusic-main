@@ -1,0 +1,16 @@
+.modal-dialog {
+    max-width: 1000px !important;
+}
+
+.modal-body {
+    max-height: 800px;
+    overflow: auto;
+}
+
+.modal-header {
+    display: flex;
+}
+
+.modal-header h5 {
+    width: 100%
+}
